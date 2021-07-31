@@ -1,0 +1,32 @@
+<div class="container mt-5">
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+        </a>
+    
+        <a (click)= "logout()" class="btn btn-danger">Logout</a>
+      </header>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="bg-white p-2 border rounded px-3">
+                <div class="d-flex flex-row justify-content-between align-items-center order">
+                    <div class="d-flex flex-column order-details"><span>Your order has been placed</span><span class="date">{{date || date}}</span></div>
+                </div>
+                <hr class="divider mb-4">
+                <div class="d-flex flex-row justify-content-between align-items-center align-content-center"><span class="dot"></span>
+
+
+
+                    <hr class="flex-fill track-line"><span><i class="fa fa-check text-white"></i></span></div>
+                <div class="d-flex flex-row justify-content-between align-items-center">
+                    <div class="d-flex flex-column justify-content-center"><span>15 Mar</span><span>Order placed</span></div>
+                    <div class="d-flex flex-column justify-content-center align-items-center"><span>15 Mar</span><span>Order Dispatched</span></div>
+                    <div class="d-flex flex-column align-items-center"><span>15 Mar</span><span>Out for delivery</span></div>
+                    <div class="d-flex flex-column align-items-end"><span>15 Mar</span><span>Delivered</span></div>
+                </div>
+            </div>
+            <br>
+            <div class="d-flex flex-column align-items-end"><a (click)="orderAgain()" class="btn btn-primary">Order Again!</a></div>
+        </div>
+    </div>
+</div>

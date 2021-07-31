@@ -1,0 +1,42 @@
+{
+    "food": [
+        {
+            "id": 1,
+            "name": "Pizza",
+            "price": 9,
+            "image": "https://www.hwcdsb.ca/418772.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Hot Dog",
+            "price": 2,
+            "image":"https://www.moneytalksnews.com/wp-content/uploads/HotDog-Africa-Studio-4096x2731.jpg"
+        },
+        
+        {
+            "id": 3,
+            "name": "Cheeseburger",
+            "price": 5,
+            "image":"https://2.bp.blogspot.com/-I_2WTeXVPxU/TnKp_3ZjKdI/AAAAAAAADoA/gF8Ip_DHJfU/s1600/Farmhouse-Bacon-Cheeseburger.jpg"
+        },
+        
+        {
+            "id": 4,
+            "name": "Pasta",
+            "price": 5,
+            "image":"https://food.amerikanki.com/wp-content/uploads/2014/07/5-Versatile-Summer-Pasta-Dishes-1024x768.jpg"
+        },
+        {
+            "id": 5,
+            "name": "French Fries",
+            "price": 1,
+            "image":"https://static01.nyt.com/images/2018/09/16/magazine/16mag-eat/16mag-eat-videoSixteenByNine3000-v2.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Ice Cream",
+            "price": 3,
+            "image":"https://tse3.mm.bing.net/th/id/OIP.noLd-A538TAf7Aat4BV0swHaEu?pid=ImgDet&rs=1"
+        }
+    ]
+}

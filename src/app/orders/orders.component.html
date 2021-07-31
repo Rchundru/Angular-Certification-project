@@ -1,0 +1,35 @@
+<div class="align-middle">
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+        </a>
+    
+        <a (click)= "logout()" class="btn btn-danger">Logout</a>
+      </header>
+    <h4>
+        <span class="text-primary">Your cart</span>
+        <span class="badge bg-primary rounded-pill">{{orderList.length}}</span>
+    </h4>
+    <ul class="list-group mb-3" *ngFor="let ord of orderList">
+        <li class="list-group-item d-flex justify-content-between lh-sm">
+            <div>
+                <h6 class="my-0">{{ord}}</h6>
+            </div>
+        </li>
+    
+        <!-- <li class="list-group-item d-flex justify-content-between">
+            <span>Total (USD)</span>
+            <strong>{{total()}}</strong>
+        </li> -->
+    </ul>
+    <li class="list-group-item d-flex justify-content-between">
+        <span>Total (USD)</span>
+        <strong>${{price}}</strong>
+    </li>
+
+    <form class="card p-2">
+        <div class="input-group">
+            <button type="button" (click)="orderNow()" class="btn btn-primary btn-lg btn-block">Order!</button>
+        </div>
+    </form>
+</div>

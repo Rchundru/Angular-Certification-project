@@ -1,0 +1,188 @@
+{
+  "orders": [
+    {
+      "id": 1,
+      "userId": 5,
+      "order": [
+        "Pizza",
+        "Pasta"
+      ],
+      "price": 14
+    },
+    {
+      "id": 2,
+      "userId": 4,
+      "order": [
+        "Pizza"
+      ],
+      "price": 9
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "order": [
+        "Pasta",
+        "Hot Dog",
+        "Cheeseburger"
+      ],
+      "price": 12
+    },
+    {
+      "id": 4,
+      "userId": 6,
+      "order": [
+        "Cheeseburger"
+      ],
+      "price": 5
+    },
+    {
+      "order": [
+        "Pizza",
+        "Pasta",
+        "Hot Dog",
+        "Cheeseburger"
+      ],
+      "price": 21,
+      "id": 5,
+      "userId": 4
+    },
+    {
+      "order": [
+        "Cheeseburger",
+        "Cheeseburger",
+        "Cheeseburger",
+        "Cheeseburger"
+      ],
+      "price": 20,
+      "id": 6,
+      "userId": 6
+    },
+    {
+      "order": [
+        "Hot Dog",
+        "Hot Dog",
+        "Hot Dog",
+        "Hot Dog",
+        "Hot Dog"
+      ],
+      "price": 10,
+      "id": 7,
+      "userId": 2
+    },
+    {
+      "order": [
+        "Cheeseburger"
+      ],
+      "price": 5,
+      "id": 8,
+      "userId": 3
+    },
+    {
+      "order": [
+        "Cheeseburger",
+        "Hot Dog",
+        "Pasta"
+      ],
+      "price": 12,
+      "id": 9,
+      "userId": 1
+    },
+    {
+      "order": [
+        "Cheeseburger",
+        "Cheeseburger"
+      ],
+      "price": 10,
+      "id": 10,
+      "userId": 1
+    },
+    {
+      "order": [
+        "Cheeseburger",
+        "Hot Dog",
+        "Ice Cream"
+      ],
+      "price": 10,
+      "id": 11,
+      "userId": 6
+    },
+    {
+      "order": [],
+      "price": 0,
+      "id": 12,
+      "userId": 2
+    },
+    {
+      "order": [
+        "Pizza",
+        "Ice Cream"
+      ],
+      "price": 12,
+      "id": 13,
+      "userId": 4
+    },
+    {
+      "order": [
+        "Ice Cream"
+      ],
+      "price": 3,
+      "id": 14,
+      "userId": 4
+    },
+    {
+      "order": [
+        "Cheeseburger"
+      ],
+      "price": 5,
+      "id": 15,
+      "userId": 3
+    },
+    {
+      "order": [
+        "Ice Cream",
+        "French Fries",
+        "Cheeseburger"
+      ],
+      "price": 9,
+      "userId": "5",
+      "id": 16
+    },
+    {
+      "order": [
+        "Cheeseburger",
+        "Ice Cream"
+      ],
+      "price": 8,
+      "userId": "5",
+      "id": 17
+    },
+    {
+      "order": [
+        "Hot Dog",
+        "French Fries",
+        "Pasta",
+        "Pizza",
+        "Cheeseburger"
+      ],
+      "price": 22,
+      "userId": "5",
+      "id": 18
+    },
+    {
+      "order": [
+        "Cheeseburger"
+      ],
+      "price": 5,
+      "userId": "5",
+      "id": 19
+    },
+    {
+      "order": [
+        "Cheeseburger"
+      ],
+      "price": 5,
+      "userId": "5",
+      "id": 20
+    }
+  ]
+}

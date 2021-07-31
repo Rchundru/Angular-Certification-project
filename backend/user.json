@@ -1,0 +1,76 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "Bob Ross",
+      "email": "Bob.Ross@gmail.com",
+      "address": "1234 west st",
+      "city": "Chicago",
+      "password": "password",
+      "confirmPassword": "password"
+    },
+    {
+      "id": 2,
+      "name": "Rohit Chundru",
+      "email": "Rohit@yahoo.com",
+      "address": "1234 west st",
+      "city": "Chicago",
+      "password": "password",
+      "confirmPassword": "password"
+    },
+    {
+      "id": 3,
+      "name": "John Doe",
+      "email": "John.D@Hotmail.com",
+      "address": "1234 west st",
+      "city": "Chicago",
+      "password": "password",
+      "confirmPassword": "password"
+    },
+    {
+      "id": 4,
+      "name": "Jane Doe",
+      "email": "JaneDoe@gmail.com",
+      "address": "1234 west st",
+      "city": "Chicago",
+      "password": "password",
+      "confirmPassword": "password"
+    },
+    {
+      "id": 5,
+      "name": "Jack Bauer",
+      "email": "jack@ctu.gov",
+      "address": "1234 west st",
+      "city": "Chicago",
+      "password": "123456",
+      "confirmPassword": "123456"
+    },
+    {
+      "id": 6,
+      "name": "Hugh Jackson",
+      "email": "test@12345",
+      "address": "1234 west st",
+      "city": "Chicago",
+      "password": "123456",
+      "confirmPassword": "123456"
+    },
+    {
+      "id": 7,
+      "name": "ddfadsf",
+      "email": "adsfads@342",
+      "address": "asdf",
+      "city": "asdfasdf",
+      "password": "123456",
+      "confirmPassword": "123456"
+    },
+    {
+      "id": 8,
+      "name": "sfgfsdg",
+      "email": "sdfgsfd@dssfdg",
+      "address": "fdgsgfd",
+      "city": "sfdggfds",
+      "password": "123456",
+      "confirmPassword": "123456"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+<div class="col d-flex justify-content-center">
+    <div class="card" style="width: 25rem;">
+        <div class="card-header">
+            <h2>User Login</h2>
+        </div>
+        <div class="card-body">
+            <form (ngSubmit)="login()">
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="text" class="form-control" [(ngModel)]="user.email" name="email"
+                        placeholder="Email">
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" [(ngModel)]="user.password" name="password"
+                        placeholder="Password">
+                </div>
+                <div class="mb-3">
+                    <input type="submit" class="btn btn-primary" value="Login" /> |
+                    <input type="button" (click)="register()" class="btn btn-secondary" value="Sign Up" /> |
+                    <input type="button" (click)="forgot()" class="btn btn-secondary" value="Forgot Password" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
